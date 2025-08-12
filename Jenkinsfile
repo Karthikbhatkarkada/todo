@@ -2,10 +2,10 @@ pipeline {
     agent any
     
     environment {
-        OCI_TENANCY_OCID = ocid1.tenancy.oc1..aaaaaaaa6jvn6ty3gevdog7phzcnbh7x3ek4suj4cwyd7imjhe62qwv7x2iq
-        OCI_USER_OCID    = ocid1.user.oc1..aaaaaaaaaoc2keqeg3eivr4vadd4llduiput5fu5ftprtps3rt5o2rzmhz6q
-        OCI_KEY_FINGERPRINT = 49:85:65:68:89:5f:9e:4e:59:a8:e9:11:68:f5:b0:07
-        OCI_PRIVATE_KEY  = /home/ubuntu/.ssh/oci_key
+        OCI_TENANCY_OCID = 'ocid1.tenancy.oc1..aaaaaaaa6jvn6ty3gevdog7phzcnbh7x3ek4suj4cwyd7imjhe62qwv7x2iq'
+        OCI_USER_OCID    = 'ocid1.user.oc1..aaaaaaaaaoc2keqeg3eivr4vadd4llduiput5fu5ftprtps3rt5o2rzmhz6q'
+        OCI_KEY_FINGERPRINT = '49:85:65:68:89:5f:9e:4e:59:a8:e9:11:68:f5:b0:07'
+        OCI_PRIVATE_KEY  = '/home/ubuntu/.ssh/oci_key'
     }
     
     stages {
